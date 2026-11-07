@@ -1,0 +1,17 @@
+{
+    "location_id": "PHX_FAIL",
+    "failed_at_utc": "2026-11-07T14:44:42.512703+00:00",
+    "activity_id": null,
+    "request": {
+        "latitude": 1.0,
+        "longitude": 1.0,
+        "temperature": 35,
+        "date_time": {
+            "start_date": "2025-09-20",
+            "start_time": "14:00",
+            "filter_type": 1
+        }
+    },
+    "error_type": "RuntimeError",
+    "error_message": "Simulated API failure"
+}

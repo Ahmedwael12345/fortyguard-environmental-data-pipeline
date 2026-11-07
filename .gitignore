@@ -1,0 +1,11 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+
+airflow/logs/*
+airflow/config/*
+!airflow/config/.gitkeep

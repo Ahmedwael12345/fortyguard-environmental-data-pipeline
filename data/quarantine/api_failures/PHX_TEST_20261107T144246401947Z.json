@@ -1,0 +1,11 @@
+{
+    "location_id": "PHX_TEST",
+    "failed_at_utc": "2026-11-07T14:42:46.401931+00:00",
+    "activity_id": null,
+    "request": {
+        "latitude": 33.4484,
+        "longitude": -112.074
+    },
+    "error_type": "RuntimeError",
+    "error_message": "Simulated API failure"
+}

@@ -1,0 +1,100 @@
+{
+    "location_id": "PHX_022",
+    "request_timestamp_utc": "2026-11-07T15:51:35.554800+00:00",
+    "request": {
+        "latitude": 33.4684,
+        "longitude": -112.084,
+        "temperature": 35,
+        "date_time": {
+            "start_date": "2026-11-07",
+            "start_time": "07:00",
+            "filter_type": 1
+        }
+    },
+    "initial_response": {
+        "error": false,
+        "status_code": 200,
+        "message": "Environment Parameters Analysis Submitted Successfully",
+        "data": {
+            "activity_id": "273ab854-3d5b-4ec9-971a-b046a494b9ee"
+        }
+    },
+    "result": {
+        "metadata": {
+            "timezone": "America/Phoenix",
+            "timezone_offset_hours": -7,
+            "time_range": {
+                "start": "2026-11-07T07:00:00-07:00",
+                "end": "2026-11-07T07:00:00-07:00",
+                "interval": "1h",
+                "count": 1
+            },
+            "timestamps": [
+                "2026-11-07T07:00:00-07:00"
+            ]
+        },
+        "locations": [
+            {
+                "lat": 33.4684,
+                "lon": -112.084,
+                "elevation": 334.0,
+                "temperature": 35.0,
+                "parameters": {
+                    "heat_index_celsius": [
+                        47.2
+                    ],
+                    "apparent_temperature_celsius": [
+                        14.4
+                    ],
+                    "relative_humidity_percent": [
+                        64.3
+                    ],
+                    "precipitation_mm": [
+                        0.0
+                    ],
+                    "cloud_cover_octas": [
+                        0
+                    ],
+                    "wet_bulb_temperature_celsius": [
+                        11.6
+                    ],
+                    "air_quality:idx": [
+                        52.3
+                    ],
+                    "air_quality_pm2p5:idx": [
+                        52.3
+                    ],
+                    "air_quality_pm10:idx": [
+                        15.9
+                    ],
+                    "air_quality_no2:idx": [
+                        4.0
+                    ],
+                    "aqi_us_co": [
+                        1.4
+                    ],
+                    "air_quality_o3:idx": [
+                        14.0
+                    ],
+                    "air_quality_so2:idx": [
+                        0.2
+                    ],
+                    "methane_ppb": [
+                        2054.5
+                    ],
+                    "co2_ppm": [
+                        461.0
+                    ]
+                },
+                "solar_irradiance": {
+                    "clear_sky": {
+                        "ghi": 0.93,
+                        "dni": 15.56,
+                        "dhi": 0.66
+                    },
+                    "description": "These modeled clear-sky irradiance estimates in W/m\u00b2 describe the specific location at 2026-11-07 07:00. GHI is global horizontal irradiance, DNI is direct normal irradiance, and DHI is diffuse horizontal irradiance."
+                }
+            }
+        ]
+    }
+}
