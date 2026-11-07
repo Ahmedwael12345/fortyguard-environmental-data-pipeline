@@ -62,7 +62,7 @@ flowchart TD
 | Boto3 | AWS integration |
 | Amazon S3 | Cloud data storage |
 | PyGeohash | Geospatial geohash support |
-[Airflow DAG](screenshots/airflow-dag-success.png)
+[Airflow DAG](airflow-dag-success.png)
 
 ## Data Pipeline
 
